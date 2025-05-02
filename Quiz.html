@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    
+    <link href="landingStyle.css" rel="stylesheet" >
+    <title>Common Grounds</title>
+</head>
+<body>
+
+    <div class ="subMenu">
+
+        <nav>
+            <a href="aboutUs.html" style="white-space: nowrap;">About Us</a>
+            <a href="patron.html" style="white-space: nowrap;">Patron Reviews</a>
+            <a href="Menu.html" style="white-space: nowrap;">Our Menu</a>
+            <a href="Quiz.html" style="white-space: nowrap; ">Whats My Coffee?</a>
+
+
+        </nav>
+
+    </div>
+    <div class="offScreenNavigator">
+        <ul>
+            <li><a href="aboutUs.html" style="white-space: nowrap;">About Us</a></li>
+            <li><a href="patron.html" style="white-space: nowrap;">Reviews </a> </li>
+            <li><a href="Menu.html" style="white-space: nowrap;">Our Menu</a></li>
+            <li> <a href="Quiz.html" style="white-space: nowrap;">My Coffee? </a></li>
+        
+    </ul>
+
+    </div>s
+
+    <div class="leftNavigatorBackground"> <p><a href = "index.html">Common Grounds</a></p></div>
+
+    <div class = "navigatorBackground"></div>
+
+    <div class="hamNavigator">
+        <i class="fa fa-bars" style="font-size: 3rem; color: rgb(218, 190, 143); z-index: 19; position: fixed; top: 3%;"></i>
+    </div>
+    <img id = "stoneDoorImg" src="Bailgate/IMG_2564.jpg" alt = "LincolnCathedral" >
+
+<div class ="qCC">
+
+<div class = "QuizContainer" style="background-color: rgb(218, 190, 143); border-radius: 5px;" >
+        
+        <p class="question1" style="text-align: center;">Which Smell Is Your Favourite?</p>
+           
+        <div id ="answers1" style="display: flex; column-gap: 10px; justify-content: center;">
+            <button id="LemonBut" style="  background-color: rgb(53, 53, 53); border-radius: 5px; color: rgb(218, 190, 143);  ">Lemon</button>
+
+            <button id="ChocolateBut" style="  background-color: rgb(53, 53, 53);border-radius: 5px; color: rgb(218, 190, 143); ">Chocolate</button>
+
+            <button id="PeachesBut" style="  background-color: rgb(53, 53, 53);border-radius: 5px; color: rgb(218, 190, 143); ">Peaches</button>
+
+            <button id="FlowersBut" style="  background-color: rgb(53, 53, 53);border-radius: 5px; color: rgb(218, 190, 143); ">Flowers</button> 
+        </div>
+
+        <p class="question2" style="text-align: center;">Do You Prefer Berry Or Dark Chocolate?</p>
+
+        <div id="answers2" style="display: flex; column-gap: 10px; justify-content: center;">
+         <button id = "BerryBut" style="background-color: rgb(53, 53, 53); border-radius: 5px; color: rgb(218, 190, 143);">Berry</button>
+
+         <button id = "DarkChocBut" style="background-color: rgb(53, 53, 53); border-radius: 5px; color: rgb(218, 190, 143);">Dark Chocolate</button>
+        </div>
+
+        <p class="question3" style="display: flex; column-gap: 10px; justify-content: center;">Do You Prefer Spicy Or Citrus Flavours</p>
+
+        <div id="answers3" style="display: flex; column-gap: 10px; justify-content: center;">
+
+            <button id = "SpicyBut" style="background-color: rgb(53, 53, 53); border-radius: 5px; color: rgb(218, 190, 143);"> Spicy</button>
+
+            <button id = "CitrusBut" style="background-color: rgb(53, 53, 53); border-radius: 5px; color: rgb(218, 190, 143);"> Citrus</button>
+
+        </div>
+
+        <p class="question4" style="display: flex; column-gap: 10px; justify-content: center;">Do You Prefer Strong or Light Coffee</p>
+
+        <div id="answers4" style="display: flex; column-gap: 10px; justify-content: center;">
+
+            <button id = "StrongBut" style="background-color: rgb(53, 53, 53); border-radius: 5px; color: rgb(218, 190, 143);"> Strong</button>
+
+            <button id = "LightBut" style="background-color: rgb(53, 53, 53); border-radius: 5px; color: rgb(218, 190, 143);"> Light</button>
+
+        </div>
+
+        <button id = "FindCoffeeBut" style="background-color: rgb(53, 53, 53); border-radius: 5px; color: rgb(218, 190, 143);">Find Coffee!</button>
+        <p id="CoffeeChoice" style="text-align: center; color: rgb(53, 53, 53);">Here</p>
+
+
+        </div>
+    </div>
+
+
+    
+    
+    
+
+
+
+
+
+    <div class ="footer" style=" position: absolute; width: 100%; height: 300px; background-color: rgb(53, 53, 53); display: flex; justify-content: center;">
+    <ul class=" footerInfo ">
+    
+    <li>Common Grounds Coffee Shop</li>
+    <li>1 Main Street,</li>
+    <li>Steep Hill,</li>
+    <li>Lincoln,</li>
+    <li>LN1 1AA</li>
+    <li>Telephone: 01522 000000</li>
+    
+    <li>X (@CommonGrounds), Facebook (CommonGrounds), Instagram (commongrounds)accounts</li>
+   </ul> 
+
+    
+    
+    </div>
+    <script src="hamMenu.js"></script> 
+    <script src="quizFunction.js"></script>
+</body>
+</html>
